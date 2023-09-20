@@ -1,5 +1,5 @@
 body {
-  background-color: rosybrown;
+  background-color: lightslategrey;
 }
 .app-container {
   display: flex;
@@ -10,9 +10,25 @@ body {
 .movie-container {
   width: 250px;
   margin: 15px;
-  background-color: thistle;
-  border: 1px solid white;
+  background-color: lightgrey;
+  color: black;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .movie-container img {
   max-width: 100%;
+}
+
+.movie-info {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.movie-info h4 {
+  margin: 0;
+}
+.movie-info span {
+  margin-left: 8px;
 }
