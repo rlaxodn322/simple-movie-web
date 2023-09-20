@@ -1,0 +1,18 @@
+body {
+  background-color: rosybrown;
+}
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-container {
+  width: 250px;
+  margin: 15px;
+  background-color: thistle;
+  border: 1px solid white;
+}
+.movie-container img {
+  max-width: 100%;
+}
